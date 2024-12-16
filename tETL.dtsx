@@ -13,8 +13,8 @@
   DTS:ObjectName="tETL"
   DTS:PackageType="5"
   DTS:SaveCheckpoints="True"
-  DTS:VersionBuild="113"
-  DTS:VersionGUID="{7C278C16-EF9C-44AA-8151-B29024672935}">
+  DTS:VersionBuild="114"
+  DTS:VersionGUID="{400D1F1D-7A7C-4501-B85E-04BAA4ACCB8D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -9258,164 +9258,164 @@ WHERE BusinessEntityID = ?
               startId="Package\Extract Data\Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Extract Data.Paths[Lookup No Match Output9]"
-              endId="Package\Extract Data\Delete Stag_Product.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 5.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output8]"
-              endId="Package\Extract Data\Delete Stag_Employee.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 9.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output7]"
-              endId="Package\Extract Data\Delete Stag_Person.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 8.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output6]"
-              endId="Package\Extract Data\Delete Stag_OrderHeader.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 6.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output5]"
-              endId="Package\Extract Data\Delete Stag_OrderDetail.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 7.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output2]"
-              endId="Package\Extract Data\Delete Stag_ProductCategory.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 2.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output3]"
-              endId="Package\Extract Data\Delete Stag_Territory.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 3.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output1]"
-              endId="Package\Extract Data\Update Stag_Person.Inputs[OLE DB Command Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup 1.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output]"
-              endId="Package\Extract Data\Insert Stag_Person.Inputs[OLE DB Destination Input]"
-              name="Lookup No Match Output"
-              startId="Package\Extract Data\Lookup.Outputs[Lookup No Match Output]" />
-            <path
-              refId="Package\Extract Data.Paths[Lookup No Match Output4]"
               endId="Package\Extract Data\Delete Stag_ProductSubcategory.Inputs[OLE DB Command Input]"
               name="Lookup No Match Output"
               startId="Package\Extract Data\Lookup 4.Outputs[Lookup No Match Output]" />
             <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output8]"
+              endId="Package\Extract Data\Insert Stag_Person.Inputs[OLE DB Destination Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output7]"
+              endId="Package\Extract Data\Update Stag_Person.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 1.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output6]"
+              endId="Package\Extract Data\Delete Stag_Territory.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 3.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output5]"
+              endId="Package\Extract Data\Delete Stag_ProductCategory.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 2.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output2]"
+              endId="Package\Extract Data\Delete Stag_Person.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 8.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output3]"
+              endId="Package\Extract Data\Delete Stag_OrderHeader.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 6.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output1]"
+              endId="Package\Extract Data\Delete Stag_Employee.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 9.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output]"
+              endId="Package\Extract Data\Delete Stag_Product.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 5.Outputs[Lookup No Match Output]" />
+            <path
+              refId="Package\Extract Data.Paths[Lookup No Match Output4]"
+              endId="Package\Extract Data\Delete Stag_OrderDetail.Inputs[OLE DB Command Input]"
+              name="Lookup No Match Output"
+              startId="Package\Extract Data\Lookup 7.Outputs[Lookup No Match Output]" />
+            <path
               refId="Package\Extract Data.Paths[New Output5]"
-              endId="Package\Extract Data\Insert Stag_ProductCategory.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Extract Data\Slowly Changing Dimension 1.Outputs[New Output]" />
-            <path
-              refId="Package\Extract Data.Paths[New Output6]"
-              endId="Package\Extract Data\Insert Stag_OrderDetail.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Extract Data\Slowly Changing Dimension 6.Outputs[New Output]" />
-            <path
-              refId="Package\Extract Data.Paths[New Output4]"
-              endId="Package\Extract Data\Insert Stag_Employee.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Extract Data\Slowly Changing Dimension.Outputs[New Output]" />
-            <path
-              refId="Package\Extract Data.Paths[New Output2]"
-              endId="Package\Extract Data\Insert Stag_ProductSubcategory.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Extract Data\Slowly Changing Dimension 3.Outputs[New Output]" />
-            <path
-              refId="Package\Extract Data.Paths[New Output1]"
-              endId="Package\Extract Data\Insert Stag_OrderHeader.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Extract Data\Slowly Changing Dimension 5.Outputs[New Output]" />
-            <path
-              refId="Package\Extract Data.Paths[New Output]"
               endId="Package\Extract Data\Insert Stag_Product.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Extract Data\Slowly Changing Dimension 4.Outputs[New Output]" />
             <path
-              refId="Package\Extract Data.Paths[New Output3]"
+              refId="Package\Extract Data.Paths[New Output6]"
               endId="Package\Extract Data\Insert Stag_Territory.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Extract Data\Slowly Changing Dimension 2.Outputs[New Output]" />
             <path
+              refId="Package\Extract Data.Paths[New Output4]"
+              endId="Package\Extract Data\Insert Stag_OrderHeader.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Extract Data\Slowly Changing Dimension 5.Outputs[New Output]" />
+            <path
+              refId="Package\Extract Data.Paths[New Output2]"
+              endId="Package\Extract Data\Insert Stag_Employee.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Extract Data\Slowly Changing Dimension.Outputs[New Output]" />
+            <path
+              refId="Package\Extract Data.Paths[New Output1]"
+              endId="Package\Extract Data\Insert Stag_OrderDetail.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Extract Data\Slowly Changing Dimension 6.Outputs[New Output]" />
+            <path
+              refId="Package\Extract Data.Paths[New Output]"
+              endId="Package\Extract Data\Insert Stag_ProductCategory.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Extract Data\Slowly Changing Dimension 1.Outputs[New Output]" />
+            <path
+              refId="Package\Extract Data.Paths[New Output3]"
+              endId="Package\Extract Data\Insert Stag_ProductSubcategory.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Extract Data\Slowly Changing Dimension 3.Outputs[New Output]" />
+            <path
               refId="Package\Extract Data.Paths[OLE DB Source Output14]"
-              endId="Package\Extract Data\Slowly Changing Dimension 4.Inputs[Slowly Changing Dimension Input]"
+              endId="Package\Extract Data\Lookup 7.Inputs[Lookup Input]"
               name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Production-Product.Outputs[OLE DB Source Output]" />
+              startId="Package\Extract Data\Get Stag_OrderDetail.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Extract Data.Paths[OLE DB Source Output13]"
-              endId="Package\Extract Data\Lookup 3.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_Territory.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output12]"
-              endId="Package\Extract Data\Lookup.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Person-Person.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output11]"
-              endId="Package\Extract Data\Lookup 4.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_ProductSubcategory.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output10]"
-              endId="Package\Extract Data\Lookup 9.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_Employee.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output9]"
-              endId="Package\Extract Data\Slowly Changing Dimension 2.Inputs[Slowly Changing Dimension Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Sales-SalesTerritory.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output8]"
-              endId="Package\Extract Data\Lookup 8.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_Person.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output6]"
-              endId="Package\Extract Data\Lookup 2.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_ProductCategory.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output5]"
-              endId="Package\Extract Data\Slowly Changing Dimension 5.Inputs[Slowly Changing Dimension Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Sales-SalesOrderHeader.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output4]"
-              endId="Package\Extract Data\Lookup 5.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_Product.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output3]"
-              endId="Package\Extract Data\Slowly Changing Dimension 6.Inputs[Slowly Changing Dimension Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Sales-SalesOrderDetail.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output2]"
-              endId="Package\Extract Data\Slowly Changing Dimension 3.Inputs[Slowly Changing Dimension Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Production-ProductSubcategory.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output1]"
-              endId="Package\Extract Data\Lookup 6.Inputs[Lookup Input]"
-              name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_OrderHeader.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output]"
               endId="Package\Extract Data\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="OLE DB Source Output"
               startId="Package\Extract Data\Get HumanResources-Employee.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Extract Data.Paths[OLE DB Source Output7]"
-              endId="Package\Extract Data\Lookup 7.Inputs[Lookup Input]"
+              refId="Package\Extract Data.Paths[OLE DB Source Output12]"
+              endId="Package\Extract Data\Lookup 6.Inputs[Lookup Input]"
               name="OLE DB Source Output"
-              startId="Package\Extract Data\Get Stag_OrderDetail.Outputs[OLE DB Source Output]" />
+              startId="Package\Extract Data\Get Stag_OrderHeader.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output11]"
+              endId="Package\Extract Data\Slowly Changing Dimension 3.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Production-ProductSubcategory.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output10]"
+              endId="Package\Extract Data\Slowly Changing Dimension 6.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Sales-SalesOrderDetail.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output9]"
+              endId="Package\Extract Data\Lookup 5.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_Product.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output8]"
+              endId="Package\Extract Data\Slowly Changing Dimension 5.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Sales-SalesOrderHeader.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output6]"
+              endId="Package\Extract Data\Lookup 8.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_Person.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output5]"
+              endId="Package\Extract Data\Slowly Changing Dimension 2.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Sales-SalesTerritory.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output4]"
+              endId="Package\Extract Data\Lookup 9.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_Employee.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output3]"
+              endId="Package\Extract Data\Lookup 4.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_ProductSubcategory.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output2]"
+              endId="Package\Extract Data\Lookup.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Person-Person.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output1]"
+              endId="Package\Extract Data\Lookup 3.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_Territory.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output]"
+              endId="Package\Extract Data\Slowly Changing Dimension 4.Inputs[Slowly Changing Dimension Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Production-Product.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Extract Data.Paths[OLE DB Source Output7]"
+              endId="Package\Extract Data\Lookup 2.Inputs[Lookup Input]"
+              name="OLE DB Source Output"
+              startId="Package\Extract Data\Get Stag_ProductCategory.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Extract Data.Paths[OLE DB Source Output15]"
               endId="Package\Extract Data\Slowly Changing Dimension 1.Inputs[Slowly Changing Dimension Input]"
@@ -21854,14 +21854,14 @@ where [refTable].[SalesOrderID] = ?</property>
               startId="Package\Load Fact\Multicast.Outputs[Multicast Output 3]" />
             <path
               refId="Package\Load Fact.Paths[New Output1]"
-              endId="Package\Load Fact\Insert DW Fact_SalesOrder.Inputs[OLE DB Destination Input]"
-              name="New Output"
-              startId="Package\Load Fact\Slowly Changing Dimension.Outputs[New Output]" />
-            <path
-              refId="Package\Load Fact.Paths[New Output]"
               endId="Package\Load Fact\Insert DW Fact_Product.Inputs[OLE DB Destination Input]"
               name="New Output"
               startId="Package\Load Fact\Slowly Changing Dimension 1.Outputs[New Output]" />
+            <path
+              refId="Package\Load Fact.Paths[New Output]"
+              endId="Package\Load Fact\Insert DW Fact_SalesOrder.Inputs[OLE DB Destination Input]"
+              name="New Output"
+              startId="Package\Load Fact\Slowly Changing Dimension.Outputs[New Output]" />
             <path
               refId="Package\Load Fact.Paths[OLE DB Source Output]"
               endId="Package\Load Fact\Lookup 1.Inputs[Lookup Input]"
@@ -28729,39 +28729,39 @@ where [refTable].[SalesOrderID] = ?</property>
               startId="Package\Transform Data\Add Month Year.Outputs[Derived Column Output]" />
             <path
               refId="Package\Transform Data.Paths[Merge Join Output6]"
-              endId="Package\Transform Data\Save Stag_Dim_ProductCategory.Inputs[OLE DB Destination Input]"
+              endId="Package\Transform Data\Save Stag_Dim_Territory.Inputs[OLE DB Destination Input]"
               name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join 4.Outputs[Merge Join Output]" />
+              startId="Package\Transform Data\Merge Join.Outputs[Merge Join Output]" />
             <path
               refId="Package\Transform Data.Paths[Merge Join Output5]"
-              endId="Package\Transform Data\Multicast 4.Inputs[Multicast Input 1]"
-              name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join 3.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Merge Join Output3]"
-              endId="Package\Transform Data\Aggregate.Inputs[Aggregate Input 1]"
-              name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join 1.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Merge Join Output4]"
-              endId="Package\Transform Data\Multicast 3.Inputs[Multicast Input 1]"
-              name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join 2.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Merge Join Output1]"
-              endId="Package\Transform Data\Generate FullName.Inputs[Derived Column Input]"
-              name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join to Get Employee Info.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Merge Join Output]"
               endId="Package\Transform Data\Sort 3.Inputs[Sort Input]"
               name="Merge Join Output"
               startId="Package\Transform Data\Merge Join to Get Person Info.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Transform Data.Paths[Merge Join Output2]"
-              endId="Package\Transform Data\Save Stag_Dim_Territory.Inputs[OLE DB Destination Input]"
+              refId="Package\Transform Data.Paths[Merge Join Output3]"
+              endId="Package\Transform Data\Multicast 3.Inputs[Multicast Input 1]"
               name="Merge Join Output"
-              startId="Package\Transform Data\Merge Join.Outputs[Merge Join Output]" />
+              startId="Package\Transform Data\Merge Join 2.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Merge Join Output4]"
+              endId="Package\Transform Data\Generate FullName.Inputs[Derived Column Input]"
+              name="Merge Join Output"
+              startId="Package\Transform Data\Merge Join to Get Employee Info.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Merge Join Output1]"
+              endId="Package\Transform Data\Multicast 4.Inputs[Multicast Input 1]"
+              name="Merge Join Output"
+              startId="Package\Transform Data\Merge Join 3.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Merge Join Output]"
+              endId="Package\Transform Data\Save Stag_Dim_ProductCategory.Inputs[OLE DB Destination Input]"
+              name="Merge Join Output"
+              startId="Package\Transform Data\Merge Join 4.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Merge Join Output2]"
+              endId="Package\Transform Data\Aggregate.Inputs[Aggregate Input 1]"
+              name="Merge Join Output"
+              startId="Package\Transform Data\Merge Join 1.Outputs[Merge Join Output]" />
             <path
               refId="Package\Transform Data.Paths[Multicast Output 1]"
               endId="Package\Transform Data\Transform.Inputs[Aggregate Input 1]"
@@ -28789,34 +28789,34 @@ where [refTable].[SalesOrderID] = ?</property>
               startId="Package\Transform Data\Multicast 3.Outputs[Multicast Output 1]" />
             <path
               refId="Package\Transform Data.Paths[Multicast Output 23]"
-              endId="Package\Transform Data\Group by OrderDate.Inputs[Aggregate Input 1]"
-              name="Multicast Output 2"
-              startId="Package\Transform Data\Multicast.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Transform Data.Paths[Multicast Output 2]"
-              endId="Package\Transform Data\Save Stag_Dim_Product.Inputs[OLE DB Destination Input]"
-              name="Multicast Output 2"
-              startId="Package\Transform Data\Multicast 3.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Transform Data.Paths[Multicast Output 21]"
-              endId="Package\Transform Data\Sort 12.Inputs[Sort Input]"
-              name="Multicast Output 2"
-              startId="Package\Transform Data\Multicast 4.Outputs[Multicast Output 2]" />
-            <path
-              refId="Package\Transform Data.Paths[Multicast Output 22]"
               endId="Package\Transform Data\Sort 6.Inputs[Sort Input]"
               name="Multicast Output 2"
               startId="Package\Transform Data\Multicast 1.Outputs[Multicast Output 2]" />
             <path
-              refId="Package\Transform Data.Paths[Multicast Output 31]"
-              endId="Package\Transform Data\Group by SalesPersonID.Inputs[Aggregate Input 1]"
-              name="Multicast Output 3"
-              startId="Package\Transform Data\Multicast.Outputs[Multicast Output 3]" />
+              refId="Package\Transform Data.Paths[Multicast Output 2]"
+              endId="Package\Transform Data\Group by OrderDate.Inputs[Aggregate Input 1]"
+              name="Multicast Output 2"
+              startId="Package\Transform Data\Multicast.Outputs[Multicast Output 2]" />
             <path
-              refId="Package\Transform Data.Paths[Multicast Output 3]"
+              refId="Package\Transform Data.Paths[Multicast Output 21]"
+              endId="Package\Transform Data\Save Stag_Dim_Product.Inputs[OLE DB Destination Input]"
+              name="Multicast Output 2"
+              startId="Package\Transform Data\Multicast 3.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Transform Data.Paths[Multicast Output 22]"
+              endId="Package\Transform Data\Sort 12.Inputs[Sort Input]"
+              name="Multicast Output 2"
+              startId="Package\Transform Data\Multicast 4.Outputs[Multicast Output 2]" />
+            <path
+              refId="Package\Transform Data.Paths[Multicast Output 31]"
               endId="Package\Transform Data\Sort 8.Inputs[Sort Input]"
               name="Multicast Output 3"
               startId="Package\Transform Data\Multicast 2.Outputs[Multicast Output 3]" />
+            <path
+              refId="Package\Transform Data.Paths[Multicast Output 3]"
+              endId="Package\Transform Data\Group by SalesPersonID.Inputs[Aggregate Input 1]"
+              name="Multicast Output 3"
+              startId="Package\Transform Data\Multicast.Outputs[Multicast Output 3]" />
             <path
               refId="Package\Transform Data.Paths[Multicast Output 4]"
               endId="Package\Transform Data\Group by TerritoryID.Inputs[Aggregate Input 1]"
@@ -28864,69 +28864,69 @@ where [refTable].[SalesOrderID] = ?</property>
               startId="Package\Transform Data\Get Stag Person.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Transform Data.Paths[Sort Output11]"
-              endId="Package\Transform Data\Merge Join 1.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 7.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output10]"
-              endId="Package\Transform Data\Merge Join 3.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 11.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output9]"
-              endId="Package\Transform Data\Merge Join 2.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 9.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output8]"
-              endId="Package\Transform Data\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 5.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output7]"
-              endId="Package\Transform Data\Merge Join to Get Employee Info.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 2.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output6]"
-              endId="Package\Transform Data\Merge Join 4.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 12.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output2]"
-              endId="Package\Transform Data\Merge Join to Get Person Info.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output4]"
-              endId="Package\Transform Data\Merge Join to Get Employee Info.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 3.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output3]"
-              endId="Package\Transform Data\Merge Join 3.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 10.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output12]"
-              endId="Package\Transform Data\Merge Join 2.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 8.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output1]"
-              endId="Package\Transform Data\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Transform Data\Sort 4.Outputs[Sort Output]" />
-            <path
-              refId="Package\Transform Data.Paths[Sort Output]"
               endId="Package\Transform Data\Merge Join 1.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Transform Data\Sort 6.Outputs[Sort Output]" />
             <path
-              refId="Package\Transform Data.Paths[Sort Output5]"
+              refId="Package\Transform Data.Paths[Sort Output10]"
+              endId="Package\Transform Data\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 4.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output9]"
+              endId="Package\Transform Data\Merge Join 2.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 8.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output8]"
+              endId="Package\Transform Data\Merge Join 3.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 10.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output7]"
+              endId="Package\Transform Data\Merge Join to Get Employee Info.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output6]"
+              endId="Package\Transform Data\Merge Join to Get Person Info.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output2]"
+              endId="Package\Transform Data\Merge Join 2.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 9.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output4]"
+              endId="Package\Transform Data\Merge Join to Get Employee Info.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 2.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output3]"
+              endId="Package\Transform Data\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 5.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output12]"
               endId="Package\Transform Data\Merge Join 4.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Transform Data\Sort 13.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output1]"
+              endId="Package\Transform Data\Merge Join 3.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 11.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output]"
+              endId="Package\Transform Data\Merge Join 1.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 7.Outputs[Sort Output]" />
+            <path
+              refId="Package\Transform Data.Paths[Sort Output5]"
+              endId="Package\Transform Data\Merge Join 4.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Transform Data\Sort 12.Outputs[Sort Output]" />
             <path
               refId="Package\Transform Data.Paths[Sort Output13]"
               endId="Package\Transform Data\Merge Join to Get Person Info.Inputs[Merge Join Left Input]"
@@ -29017,47 +29017,47 @@ where [refTable].[SalesOrderID] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="276,41.6"
-          Id="Package\Truncate table Stag _Dim _Fact _Compare"
-          TopLeft="244.166653325989,692.999997233748" />
-        <NodeLayout
           Size="135.2,41.6"
           Id="Package\Extract Data"
-          TopLeft="297.619041819083,103.999999276797" />
+          TopLeft="81.7857202783625,224.466665105754" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Load DW Dim Lv1"
-          TopLeft="289.999984155099,318.98431091245" />
+          TopLeft="503.055528069813,351.050977356129" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Load DW Dim Lv2"
-          TopLeft="292.499984018505,408.250976958367" />
+          TopLeft="523.611082502262,223.650978242052" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Load DW Dim Lv3"
-          TopLeft="298.333317033119,494.050976361724" />
+          TopLeft="541.388859308705,99.7176457705352" />
         <NodeLayout
           Size="124.8,41.6"
           Id="Package\Load Fact"
-          TopLeft="314.99998278916,591.984309014042" />
+          TopLeft="794.365035962887,220.968438578167" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\Transform Data"
           TopLeft="289.999984155099,218.799998806715" />
+        <NodeLayout
+          Size="276,41.6"
+          Id="Package\Truncate table Stag _Dim _Fact _Compare"
+          TopLeft="1027.49994385988,222.936508439019" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="365.209512987091,145.599999276797">
+          TopLeft="216.985720278362,242.433331956234">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,73.1999995299178"
+              EndConnector="73.0142638767365,0"
               Start="0,0"
-              End="0,65.6999995299178">
+              End="65.5142638767365,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,65.6999995299178" />
+                    End="65.5142638767365,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29068,18 +29068,30 @@ where [refTable].[SalesOrderID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="368.199984155099,260.399998806715">
+          TopLeft="365.199984155099,260.399998806715">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,58.584312105735"
+              EndConnector="193.322210581381,90.650978549414"
               Start="0,0"
-              End="0,51.084312105735">
+              End="193.322210581381,83.150978549414">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.084312105735" />
+                    End="0,49.8599472552128" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,49.8599472552128"
+                    Point2="0,53.8599472552128"
+                    Point3="4,53.8599472552128" />
+                  <mssgle:LineSegment
+                    End="189.322210581381,53.8599472552128" />
+                  <mssgle:CubicBezierSegment
+                    Point1="189.322210581381,53.8599472552128"
+                    Point2="193.322210581381,53.8599472552128"
+                    Point3="193.322210581381,57.8599472552128" />
+                  <mssgle:LineSegment
+                    End="193.322210581381,83.150978549414" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29090,18 +29102,18 @@ where [refTable].[SalesOrderID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="372.449984086802,360.58431091245">
+          TopLeft="607.399971952704,351.050977356129">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,47.666666045917"
+              EndConnector="0,-85.7999991140766"
               Start="0,0"
-              End="0,40.166666045917">
+              End="0,-78.2999991140766">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.166666045917" />
+                    End="0,-78.2999991140766" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29112,18 +29124,18 @@ where [refTable].[SalesOrderID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="376.616650525812,449.850976958367">
+          TopLeft="600.833304238817,223.650978242052">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44.1999994033569"
+              EndConnector="0,-82.3333324715173"
               Start="0,0"
-              End="0,36.6999994033569">
+              End="0,-74.8333324715173">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.6999994033569" />
+                    End="0,-74.8333324715173" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29134,18 +29146,30 @@ where [refTable].[SalesOrderID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="378.466649911139,535.650976361724">
+          TopLeft="648.322192642038,141.317645770535">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,56.3333326523181"
+              EndConnector="208.442843320849,79.6507928076319"
               Start="0,0"
-              End="0,48.8333326523181">
+              End="208.442843320849,72.1507928076319">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.8333326523181" />
+                    End="0,28.326565666317" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.326565666317"
+                    Point2="0,32.326565666317"
+                    Point3="4,32.326565666317" />
+                  <mssgle:LineSegment
+                    End="204.442843320849,32.326565666317" />
+                  <mssgle:CubicBezierSegment
+                    Point1="204.442843320849,32.326565666317"
+                    Point2="208.442843320849,32.326565666317"
+                    Point3="208.442843320849,36.326565666317" />
+                  <mssgle:LineSegment
+                    End="208.442843320849,72.1507928076319" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29156,18 +29180,18 @@ where [refTable].[SalesOrderID] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="379.783318057575,633.584309014042">
+          TopLeft="919.165035962887,242.752473508593">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,59.4156882197061"
+              EndConnector="108.334907896991,0"
               Start="0,0"
-              End="0,51.9156882197061">
+              End="100.834907896991,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.9156882197061" />
+                    End="100.834907896991,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -29413,7 +29437,7 @@ where [refTable].[SalesOrderID] = ?</property>
           Id="Package\Extract Data\Delete Stag_Employee"
           TopLeft="3822.01831807951,505.455555918161" />
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output4]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output9]"
           TopLeft="1736.83332017478,412.233332408236">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29435,7 +29459,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output3]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output10]"
           TopLeft="2702.33333246824,120.96666685952">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29457,7 +29481,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output2]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output11]"
           TopLeft="1182.50001338621,139.16666673296">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29479,7 +29503,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output1]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output12]"
           TopLeft="2279.99989618858,419.633332317836">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29501,7 +29525,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output13]"
           TopLeft="3708.97220846417,137.72222229856">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29523,7 +29547,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output6]"
+          Id="Package\Extract Data.Paths[New Output1]"
           TopLeft="2669.85000034148,250.3">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29547,7 +29571,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output5]"
+          Id="Package\Extract Data.Paths[New Output]"
           TopLeft="163.850003756334,234.70000010848">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29571,7 +29595,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output4]"
+          Id="Package\Extract Data.Paths[New Output2]"
           TopLeft="3674.80554275367,232.38888901344">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29595,7 +29619,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output3]"
+          Id="Package\Extract Data.Paths[New Output6]"
           TopLeft="648.099999453624,232.300000268221">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29619,7 +29643,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output2]"
+          Id="Package\Extract Data.Paths[New Output3]"
           TopLeft="1146.7666734053,247.70000001808">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29643,7 +29667,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output1]"
+          Id="Package\Extract Data.Paths[New Output4]"
           TopLeft="2184.76667190277,246.83333335744">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29667,7 +29691,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[New Output]"
+          Id="Package\Extract Data.Paths[New Output5]"
           TopLeft="1652.51666855622,239.03333341168">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29691,7 +29715,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output9]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output]"
           TopLeft="1903.99997295439,429.999999095996">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29715,7 +29739,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output8]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output1]"
           TopLeft="3911.65905809681,438.722223338164">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29739,7 +29763,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output7]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output2]"
           TopLeft="3416.41648429095,436.066667094561">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29763,7 +29787,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output6]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output3]"
           TopLeft="2436.48321520231,438.266665666236">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29787,7 +29811,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output5]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output4]"
           TopLeft="2930.36651113166,438.466666371359">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29811,7 +29835,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output4]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output9]"
           TopLeft="1375.63329176323,433.333332344956">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29835,7 +29859,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output3]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output6]"
           TopLeft="897.016627031649,442.866664454871">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29859,7 +29883,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output2]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output5]"
           TopLeft="394.399983062347,437.533331675993">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29883,7 +29907,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output1]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output7]"
           TopLeft="3397.97220837311,266.477777665279">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -29907,7 +29931,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[Lookup No Match Output]"
+          Id="Package\Extract Data.Paths[Lookup No Match Output8]"
           TopLeft="3365.08887588211,163.144444343999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30241,7 +30265,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output14]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output]"
           TopLeft="1692.83333397077,128.76666680528">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30263,7 +30287,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output13]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output1]"
           TopLeft="731.499968993168,420.76666417463">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30285,7 +30309,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output12]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output2]"
           TopLeft="3382.55554254877,61.5444443439992">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30307,7 +30331,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output11]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output3]"
           TopLeft="1261.93330009547,412.433332173195">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30329,7 +30353,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output10]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output4]"
           TopLeft="3756.55166434374,419.944445546323">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30351,7 +30375,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output9]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output5]"
           TopLeft="677.99999931703,124.433333502081">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30373,7 +30397,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output8]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output6]"
           TopLeft="3237.64983205771,416.566667085521">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30395,7 +30419,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output7]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output14]"
           TopLeft="2754.7331928692,418.099999701679">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30417,7 +30441,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output6]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output7]"
           TopLeft="261.53333014614,414.999998065432">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -30439,7 +30463,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Extract Data.Paths[OLE DB Source Output5]"
+          Id="Package\Extract Data.Paths[OLE DB Source Output8]"
           TopLeft="2219.91667702504,121.83333352016">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33665,7 +33689,7 @@ where [refTable].[SalesOrderID] = ?</property>
           Id="Package\Load Fact\Get_Stag_Fact_Product"
           TopLeft="555.899997854233,107.1" />
         <EdgeLayout
-          Id="Package\Load Fact.Paths[New Output1]"
+          Id="Package\Load Fact.Paths[New Output]"
           TopLeft="1062.03333118757,453.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -33701,7 +33725,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Fact.Paths[New Output]"
+          Id="Package\Load Fact.Paths[New Output1]"
           TopLeft="733.999998547137,456.499999955296">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34650,7 +34674,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output12]"
+          Id="Package\Transform Data.Paths[Sort Output9]"
           TopLeft="1845.64759668169,160.28571358834">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34672,7 +34696,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output11]"
+          Id="Package\Transform Data.Paths[Sort Output]"
           TopLeft="1430.86664718754,163.009523093209">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34694,7 +34718,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output10]"
+          Id="Package\Transform Data.Paths[Sort Output1]"
           TopLeft="2482.36663868737,160.161904065391">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34716,7 +34740,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output9]"
+          Id="Package\Transform Data.Paths[Sort Output2]"
           TopLeft="2007.86663222843,158.180951698214">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34750,7 +34774,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output8]"
+          Id="Package\Transform Data.Paths[Sort Output3]"
           TopLeft="566.599993637204,449.74285183705">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34784,7 +34808,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output7]"
+          Id="Package\Transform Data.Paths[Sort Output4]"
           TopLeft="146.799998807907,607.742849482667">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34818,7 +34842,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output6]"
+          Id="Package\Transform Data.Paths[Sort Output5]"
           TopLeft="3011.85710675376,101.971428568846">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34840,7 +34864,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output5]"
+          Id="Package\Transform Data.Paths[Sort Output12]"
           TopLeft="2907.53806679048,274.87142722188">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34862,7 +34886,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output4]"
+          Id="Package\Transform Data.Paths[Sort Output7]"
           TopLeft="352.599995872379,610.771421247011">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34896,7 +34920,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output3]"
+          Id="Package\Transform Data.Paths[Sort Output8]"
           TopLeft="2330.74283867961,83.83333331224">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34918,7 +34942,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output2]"
+          Id="Package\Transform Data.Paths[Sort Output6]"
           TopLeft="168.199999180436,445.742851896655">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34952,7 +34976,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output1]"
+          Id="Package\Transform Data.Paths[Sort Output10]"
           TopLeft="758.599990776182,451.742851807248">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -34986,7 +35010,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Sort Output]"
+          Id="Package\Transform Data.Paths[Sort Output11]"
           TopLeft="1250.55554062956,89.2095235523629">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35242,7 +35266,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 31]"
+          Id="Package\Transform Data.Paths[Multicast Output 3]"
           TopLeft="983.399986022711,209.742855413329">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35276,7 +35300,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 3]"
+          Id="Package\Transform Data.Paths[Multicast Output 31]"
           TopLeft="1717.07617038682,179.228570744111">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35298,7 +35322,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 23]"
+          Id="Package\Transform Data.Paths[Multicast Output 2]"
           TopLeft="951.599986022711,189.442855405879">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35320,7 +35344,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 22]"
+          Id="Package\Transform Data.Paths[Multicast Output 23]"
           TopLeft="851.590478330802,85.5142855013647">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35342,7 +35366,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 21]"
+          Id="Package\Transform Data.Paths[Multicast Output 22]"
           TopLeft="2846.29044413938,81.9761904680114">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35364,7 +35388,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Multicast Output 2]"
+          Id="Package\Transform Data.Paths[Multicast Output 21]"
           TopLeft="2064.13329689172,101.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35532,7 +35556,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output6]"
+          Id="Package\Transform Data.Paths[Merge Join Output]"
           TopLeft="3006.45472674127,293.50476057028">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35554,7 +35578,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output5]"
+          Id="Package\Transform Data.Paths[Merge Join Output1]"
           TopLeft="2552.69521072086,82.9666666516">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35576,7 +35600,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output4]"
+          Id="Package\Transform Data.Paths[Merge Join Output3]"
           TopLeft="1934.90473947378,82.0380952294857">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35598,7 +35622,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output3]"
+          Id="Package\Transform Data.Paths[Merge Join Output2]"
           TopLeft="1499.16665217529,87.5095236569028">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35620,7 +35644,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output2]"
+          Id="Package\Transform Data.Paths[Merge Join Output6]"
           TopLeft="657.599992698431,545.742850406539">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35642,7 +35666,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output1]"
+          Id="Package\Transform Data.Paths[Merge Join Output4]"
           TopLeft="249.499998100102,701.142848245871">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35664,7 +35688,7 @@ where [refTable].[SalesOrderID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Transform Data.Paths[Merge Join Output]"
+          Id="Package\Transform Data.Paths[Merge Join Output5]"
           TopLeft="350.666663259268,538.742850510847">
           <EdgeLayout.Curve>
             <mssgle:Curve
