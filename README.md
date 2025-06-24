@@ -1,28 +1,58 @@
-# Sales Data Warehouse & Automated Reporting Pipeline
-## Mô tả dự án
-Dự án này xây dựng Data Warehouse để quản lý và phân tích dữ liệu bán hàng từ file AdventureWorks2012.bak. Dữ liệu được xử lý thông qua ETL pipeline, lên lịch chạy định kỳ và kết nối với Power BI để tạo báo cáo tự động, đáp ứng nhu cầu cập nhật thông tin bán hàng thường xuyên.
-## Mục tiêu chính
-### 1. Xây dựng Data Warehouse:
-- Tổ chức dữ liệu từ file AdventureWorks2012.bak vào mô hình dữ liệu chuẩn cho báo cáo.
-![image](https://github.com/user-attachments/assets/51a8f9c2-7df6-4c5f-8424-5eda7ed54248)
-### 2. ETL Pipeline:
-- Trích xuất, chuyển đổi trên DW_STAGGING và tải dữ liệu vào DW_SALES_REPORT.
-- ETL lần đầu
-![image](https://github.com/user-attachments/assets/5746e5d2-0f22-4dc7-a64c-50ae202cff4a)
-- ETL lần những lần sau
-![image](https://github.com/user-attachments/assets/568bb66a-bc6b-4a3d-be6b-2411db7d5d39)
-- Lên lịch chạy ETL định kỳ để tự động hóa quy trình cập nhật dữ liệu.
-![image](https://github.com/user-attachments/assets/b9cb86c6-fc56-4942-aa3b-67211908d51f)
-### 3. Tạo báo cáo trên Power BI:
-- Xây dựng báo cáo Sales Dashboard trực quan trên Power BI dựa trên dữ liệu đã xử lý.
-![image](https://github.com/user-attachments/assets/1274cfef-68de-4049-a2ff-a7b02d051f6c)
-- Triển khai báo cáo lên Power BI Service.
-### 4. Tự động cập nhật báo cáo:
-- Sử dụng Gateway để kết nối Power BI Service với DW_SALES_REPORT và cập nhật dữ liệu định kỳ.
-![image](https://github.com/user-attachments/assets/a544fea6-f5d2-44b5-9a4f-9a2d3751c1b9)
-## Công nghệ sử dụng
-- SQL Server: Xử lý và lưu trữ dữ liệu Data Warehouse.
-- SQL Server Integration Services (SSIS): Xây dựng các package ETL 
-- SQL Server Agent: Lên lịch chạy các tác vụ ETL định kỳ.
-- Power BI: Xây dựng báo cáo và dashboard bán hàng.
-- Power BI Gateway: Kết nối dữ liệu giữa Power BI Service và Data Warehouse.
+![image](https://github.com/user-attachments/assets/93bc2366-f4d9-4e8f-9695-795d856bfc5f)# 📊 Sales Data Warehouse & Automated Reporting Pipeline
+
+## 📌 Mô tả dự án
+Dự án xây dựng hệ thống *Data Warehouse* kết hợp *ETL Pipeline tự động* để xử lý và phân tích dữ liệu bán hàng từ *AdventureWorks2022*. Báo cáo trực quan được thiết kế trên Power BI và cập nhật định kỳ thông qua Gateway.
+
+---
+
+## 🎯 Mục tiêu chính
+
+### 1. Thiết kế Data Warehouse
+- Mô hình dữ liệu: *Snowflake Schema*
+- Tổ chức các bảng Fact và Dimension để phân tích doanh thu và số lượng sản phẩm
+
+![image](https://github.com/user-attachments/assets/57d68af8-d4a5-4dcd-a81d-97e9ee26317d)
+
+### 2. Xây dựng ETL Pipeline bằng SSIS
+- ETL lần đầu:
+  ![image](https://github.com/user-attachments/assets/71950a14-dec4-4dce-946a-6cfa9ae3ee96)
+- Các lần ETL sau:
+  ![image](https://github.com/user-attachments/assets/83bce897-74dc-4b11-8d6a-690736e743f3)
+- Tự động hóa bằng SQL Server Agent:
+  ![image](https://github.com/user-attachments/assets/8eb7388f-a267-4b77-aaca-228c49f3aa84)
+
+### 3. Trực quan hóa với Power BI
+- Revenue Overview by Territory and Year dashboard
+  ![image](https://github.com/user-attachments/assets/1fd5cfb6-292f-428c-9266-3a0edef52673)
+- Product Overview by Territory and Year dashboard
+  ![image](https://github.com/user-attachments/assets/9d1a9621-ec10-4912-a502-f98d8dfcd8cb)
+
+### 4. Tự động cập nhật dữ liệu báo cáo
+- Kết nối Gateway + lên lịch refresh:
+  ![image](https://github.com/user-attachments/assets/7d86cdd4-0f7b-4423-8bc6-15bf4d869939)
+
+---
+
+## 🛠️ Công nghệ sử dụng
+
+| Thành phần | Công cụ |
+|-----------|--------|
+| Cơ sở dữ liệu | SQL Server (AdventureWorks2022) |
+| ETL Pipeline | SQL Server Integration Services (SSIS) |
+| Scheduling | SQL Server Agent |
+| Dashboard | Power BI Desktop & Service |
+| Data Gateway | Power BI Gateway |
+| Modeling | Snowflake Schema, Surrogate Key, SCD |
+
+---
+
+## 🧱 Kiến trúc hệ thống
+
+```mermaid
+graph TD
+    A[AdventureWorks2022] --> B[Staging Area]
+    B --> C[Transform & Clean]
+    C --> D[Data Warehouse]
+    D --> E[Power BI Dashboard]
+    D --> F[Power BI Service]
+    F --> G[Gateway & Schedule Refresh]
