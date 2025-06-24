@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/93bc2366-f4d9-4e8f-9695-795d856bfc5f)# 📊 Sales Data Warehouse & Automated Reporting Pipeline
+# 📊 Sales Data Warehouse & Automated Reporting Pipeline
 
 ## 📌 Mô tả dự án
 Dự án xây dựng hệ thống *Data Warehouse* kết hợp *ETL Pipeline tự động* để xử lý và phân tích dữ liệu bán hàng từ *AdventureWorks2022*. Báo cáo trực quan được thiết kế trên Power BI và cập nhật định kỳ thông qua Gateway.
